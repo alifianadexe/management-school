@@ -72,11 +72,40 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="Admin\ManagementSiswa.Designer.vb">
+      <DependentUpon>ManagementSiswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManagementSiswa.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Admin\NavigationAdmin.Designer.vb">
+      <DependentUpon>NavigationAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\NavigationAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="db_sekolahDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>db_sekolahDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FunctionClass.vb" />
+    <Compile Include="Guru\NavigationGuru.Designer.vb">
+      <DependentUpon>NavigationGuru.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Guru\NavigationGuru.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -94,8 +123,26 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Siswa\NavigationSiswa.Designer.vb">
+      <DependentUpon>NavigationSiswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Siswa\NavigationSiswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Admin\ManagementSiswa.resx">
+      <DependentUpon>ManagementSiswa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\NavigationAdmin.resx">
+      <DependentUpon>NavigationAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -104,6 +151,17 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="db_sekolahDataSet.xsc">
+      <DependentUpon>db_sekolahDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="db_sekolahDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>db_sekolahDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="db_sekolahDataSet.xss">
+      <DependentUpon>db_sekolahDataSet.xsd</DependentUpon>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -114,6 +172,12 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tec-Voc-east-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anonymous_user_profile.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
