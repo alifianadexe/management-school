@@ -72,6 +72,30 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\ManagementClass.Designer.vb">
+      <DependentUpon>ManagementClass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManagementClass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\ManagementGuru.Designer.vb">
+      <DependentUpon>ManagementGuru.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManagementGuru.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\ManagementJadwal.Designer.vb">
+      <DependentUpon>ManagementJadwal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManagementJadwal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\ManagementMapel.Designer.vb">
+      <DependentUpon>ManagementMapel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManagementMapel.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Admin\ManagementSiswa.Designer.vb">
       <DependentUpon>ManagementSiswa.vb</DependentUpon>
     </Compile>
@@ -131,6 +155,18 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Admin\ManagementClass.resx">
+      <DependentUpon>ManagementClass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\ManagementGuru.resx">
+      <DependentUpon>ManagementGuru.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\ManagementJadwal.resx">
+      <DependentUpon>ManagementJadwal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\ManagementMapel.resx">
+      <DependentUpon>ManagementMapel.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Admin\ManagementSiswa.resx">
       <DependentUpon>ManagementSiswa.vb</DependentUpon>
     </EmbeddedResource>

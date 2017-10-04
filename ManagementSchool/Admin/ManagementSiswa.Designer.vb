@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class ManagementSiswa
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,21 +20,21 @@ Partial Class ManagementSiswa
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.txt_nis = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.txt_nama = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.txt_alamat = New System.Windows.Forms.TextBox()
-        Me.txt_jenis_kelamin = New System.Windows.Forms.ComboBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.txt_date_lahir = New System.Windows.Forms.DateTimePicker()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.txt_no_hp = New System.Windows.Forms.TextBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.txt_date_lahir = New System.Windows.Forms.DateTimePicker()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.txt_jenis_kelamin = New System.Windows.Forms.ComboBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.txt_alamat = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.txt_nama = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.btn_browse = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -79,31 +79,58 @@ Partial Class ManagementSiswa
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Data Diri"
         '
-        'Label1
+        'Label6
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(10, 22)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(25, 13)
-        Me.Label1.TabIndex = 2
-        Me.Label1.Text = "NIS"
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(10, 182)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(39, 13)
+        Me.Label6.TabIndex = 12
+        Me.Label6.Text = "No HP"
         '
-        'Label2
+        'txt_no_hp
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(10, 48)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(66, 13)
-        Me.Label2.TabIndex = 4
-        Me.Label2.Text = "Nama Siswa"
+        Me.txt_no_hp.Enabled = False
+        Me.txt_no_hp.Location = New System.Drawing.Point(89, 179)
+        Me.txt_no_hp.Name = "txt_no_hp"
+        Me.txt_no_hp.Size = New System.Drawing.Size(201, 20)
+        Me.txt_no_hp.TabIndex = 5
         '
-        'txt_nama
+        'Label5
         '
-        Me.txt_nama.Enabled = False
-        Me.txt_nama.Location = New System.Drawing.Point(89, 45)
-        Me.txt_nama.Name = "txt_nama"
-        Me.txt_nama.Size = New System.Drawing.Size(201, 20)
-        Me.txt_nama.TabIndex = 1
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(11, 156)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(72, 13)
+        Me.Label5.TabIndex = 10
+        Me.Label5.Text = "Tanggal Lahir"
+        '
+        'txt_date_lahir
+        '
+        Me.txt_date_lahir.Enabled = False
+        Me.txt_date_lahir.Location = New System.Drawing.Point(89, 153)
+        Me.txt_date_lahir.Name = "txt_date_lahir"
+        Me.txt_date_lahir.Size = New System.Drawing.Size(200, 20)
+        Me.txt_date_lahir.TabIndex = 4
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(10, 129)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(71, 13)
+        Me.Label4.TabIndex = 8
+        Me.Label4.Text = "Jenis Kelamin"
+        '
+        'txt_jenis_kelamin
+        '
+        Me.txt_jenis_kelamin.Enabled = False
+        Me.txt_jenis_kelamin.FormattingEnabled = True
+        Me.txt_jenis_kelamin.Items.AddRange(New Object() {"Laki - Laki", "Perempuan"})
+        Me.txt_jenis_kelamin.Location = New System.Drawing.Point(89, 126)
+        Me.txt_jenis_kelamin.Name = "txt_jenis_kelamin"
+        Me.txt_jenis_kelamin.Size = New System.Drawing.Size(143, 21)
+        Me.txt_jenis_kelamin.TabIndex = 3
         '
         'Label3
         '
@@ -123,57 +150,31 @@ Partial Class ManagementSiswa
         Me.txt_alamat.Size = New System.Drawing.Size(201, 49)
         Me.txt_alamat.TabIndex = 2
         '
-        'txt_jenis_kelamin
+        'Label2
         '
-        Me.txt_jenis_kelamin.Enabled = False
-        Me.txt_jenis_kelamin.FormattingEnabled = True
-        Me.txt_jenis_kelamin.Location = New System.Drawing.Point(89, 126)
-        Me.txt_jenis_kelamin.Name = "txt_jenis_kelamin"
-        Me.txt_jenis_kelamin.Size = New System.Drawing.Size(143, 21)
-        Me.txt_jenis_kelamin.TabIndex = 3
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(10, 48)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(66, 13)
+        Me.Label2.TabIndex = 4
+        Me.Label2.Text = "Nama Siswa"
         '
-        'Label4
+        'txt_nama
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(10, 129)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(71, 13)
-        Me.Label4.TabIndex = 8
-        Me.Label4.Text = "Jenis Kelamin"
+        Me.txt_nama.Enabled = False
+        Me.txt_nama.Location = New System.Drawing.Point(89, 45)
+        Me.txt_nama.Name = "txt_nama"
+        Me.txt_nama.Size = New System.Drawing.Size(201, 20)
+        Me.txt_nama.TabIndex = 1
         '
-        'txt_date_lahir
+        'Label1
         '
-        Me.txt_date_lahir.Enabled = False
-        Me.txt_date_lahir.Location = New System.Drawing.Point(89, 153)
-        Me.txt_date_lahir.Name = "txt_date_lahir"
-        Me.txt_date_lahir.Size = New System.Drawing.Size(200, 20)
-        Me.txt_date_lahir.TabIndex = 4
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(11, 156)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(72, 13)
-        Me.Label5.TabIndex = 10
-        Me.Label5.Text = "Tanggal Lahir"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(10, 182)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(39, 13)
-        Me.Label6.TabIndex = 12
-        Me.Label6.Text = "No HP"
-        '
-        'txt_no_hp
-        '
-        Me.txt_no_hp.Enabled = False
-        Me.txt_no_hp.Location = New System.Drawing.Point(89, 179)
-        Me.txt_no_hp.Name = "txt_no_hp"
-        Me.txt_no_hp.Size = New System.Drawing.Size(201, 20)
-        Me.txt_no_hp.TabIndex = 5
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(10, 22)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(25, 13)
+        Me.Label1.TabIndex = 2
+        Me.Label1.Text = "NIS"
         '
         'GroupBox2
         '
@@ -208,9 +209,13 @@ Partial Class ManagementSiswa
         '
         'data_grid
         '
+        Me.data_grid.AllowUserToAddRows = False
+        Me.data_grid.AllowUserToDeleteRows = False
+        Me.data_grid.AllowUserToOrderColumns = True
         Me.data_grid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.data_grid.Location = New System.Drawing.Point(12, 262)
         Me.data_grid.Name = "data_grid"
+        Me.data_grid.ReadOnly = True
         Me.data_grid.Size = New System.Drawing.Size(705, 217)
         Me.data_grid.TabIndex = 4
         '
@@ -267,6 +272,7 @@ Partial Class ManagementSiswa
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "ManagementSiswa"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ManagementSiswa"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

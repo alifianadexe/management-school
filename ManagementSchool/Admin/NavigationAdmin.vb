@@ -9,4 +9,16 @@
         Me.Close()
 
     End Sub
+
+    Private Sub btn_siswa_Click(sender As Object, e As EventArgs) Handles btn_siswa.Click
+        ManagementSiswa.Show()
+    End Sub
+
+    Private Sub btn_guru_Click(sender As Object, e As EventArgs) Handles btn_guru.Click
+        ManagementGuru.Show()
+    End Sub
+
+    Private Sub btn_mapel_Click(sender As Object, e As EventArgs) Handles btn_mapel.Click
+        ManagementMapel.Show()
+    End Sub
 End Class
