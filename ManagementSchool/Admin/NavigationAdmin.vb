@@ -21,4 +21,12 @@
     Private Sub btn_mapel_Click(sender As Object, e As EventArgs) Handles btn_mapel.Click
         ManagementMapel.Show()
     End Sub
+
+    Private Sub btn_kelas_Click(sender As Object, e As EventArgs) Handles btn_kelas.Click
+        ManagementClass.Show()
+    End Sub
+
+    Private Sub btn_jadwal_Click(sender As Object, e As EventArgs) Handles btn_jadwal.Click
+        ManagementJadwal.Show()
+    End Sub
 End Class

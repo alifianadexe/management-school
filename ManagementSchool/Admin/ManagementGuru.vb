@@ -14,7 +14,7 @@
     End Sub
 
     Private Sub refreshData()
-        Dim sql As String = "SELECT nip,nama_guru,bidang_studi,jenis_kelamin,tanggal_lahir,no_hp FROM tbl_guru"
+        Dim sql As String = "SELECT nip,nama_guru,bidang_study,jenis_kelamin,tanggal_lahir,no_hp FROM tbl_guru"
         Dim adapter As New SqlClient.SqlDataAdapter(sql, conn)
         Dim dt As New DataTable
         adapter.Fill(dt)

@@ -69,7 +69,7 @@
                         If MessageBox.Show("Apakah Data Sudah Benar?", "Cek", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
                             cmnd.ExecuteNonQuery()
                             generateLogin(Me.txt_nis.Text)
-                            MessageBox.Show("Siswa Berhasil Diupdate", "Yatta", MessageBoxButtons.OK, MessageBoxIcon.Hand)
+                            MessageBox.Show("Siswa Berhasil Diupdate", "Yatta", MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
                         End If
 
                     End Using
@@ -91,7 +91,7 @@
                         If MessageBox.Show("Apakah Data Sudah Benar?", "Cek", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
                             cmnd.ExecuteNonQuery()
                             generateLogin(Me.txt_nis.Text)
-                            MessageBox.Show("Siswa Berhasil Diupdate", "Yatta", MessageBoxButtons.OK, MessageBoxIcon.Hand)
+                            MessageBox.Show("Siswa Berhasil Diupdate", "Yatta", MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
                         End If
 
                     End Using
@@ -126,7 +126,7 @@
                     Dim sql As String = "DELETE FROM tbl_siswa WHERE nis = '" + id + "'"
                     Dim cmnd As New SqlClient.SqlCommand(sql, conn)
                     cmnd.ExecuteNonQuery()
-                    MessageBox.Show("Siswa Berhasil Dihapus", "Yatta", MessageBoxButtons.OK, MessageBoxIcon.Hand)
+                    MessageBox.Show("Siswa Berhasil Dihapus", "Yatta", MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
                 Catch ex As Exception
                     MessageBox.Show(ex.Message, "Damme", MessageBoxButtons.OK, MessageBoxIcon.Error)
                 End Try
