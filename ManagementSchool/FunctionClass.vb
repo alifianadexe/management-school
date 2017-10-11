@@ -1,6 +1,6 @@
 ﻿Module FunctionClass
     Dim rd As SqlClient.SqlDataReader
-    Dim server As String = "1.1.1.248"
+    Dim server As String = "1.1.1.202"
 
 
     Public Function cekEmptyTextbox(ByVal ParamArray obj() As Object) As Boolean
@@ -26,7 +26,7 @@
             End If
         Catch ex As Exception
             MessageBox.Show(ex.Message, "Server", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk)
-            server = InputBox("Masukkan IP Server : ", "SERVER", "1.1.1.248")
+            server = InputBox("Masukkan IP Server : ", "SERVER", "1.1.1.202")
             generateConnString()
         End Try
         Return connString

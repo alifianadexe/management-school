@@ -157,6 +157,7 @@
                 rd = cmnd.ExecuteReader
                 rd.Read()
                 If rd.HasRows Then
+                    Me.txt_id.Text = id
                     Me.txt_class.Text = rd.Item("nama_kelas")
                     Me.txt_guru.Text = rd.Item("nama_guru")
                     Me.txt_mapel.Text = rd.Item("nama_mapel")

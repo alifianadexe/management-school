@@ -48,6 +48,8 @@ Partial Class ManagementClass
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.btn_masuk = New System.Windows.Forms.Button()
         Me.btn_keluar = New System.Windows.Forms.Button()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.txt_jadwal = New System.Windows.Forms.ComboBox()
         CType(Me.data_grid_all, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -98,10 +100,12 @@ Partial Class ManagementClass
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.txt_jadwal)
+        Me.GroupBox2.Controls.Add(Me.Label8)
         Me.GroupBox2.Controls.Add(Me.data_grid_class)
         Me.GroupBox2.Location = New System.Drawing.Point(518, 218)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(331, 479)
+        Me.GroupBox2.Size = New System.Drawing.Size(331, 503)
         Me.GroupBox2.TabIndex = 3
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "List Siswa Di Kelas"
@@ -112,7 +116,7 @@ Partial Class ManagementClass
         Me.data_grid_class.AllowUserToDeleteRows = False
         Me.data_grid_class.AllowUserToOrderColumns = True
         Me.data_grid_class.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.data_grid_class.Location = New System.Drawing.Point(15, 19)
+        Me.data_grid_class.Location = New System.Drawing.Point(15, 46)
         Me.data_grid_class.Name = "data_grid_class"
         Me.data_grid_class.ReadOnly = True
         Me.data_grid_class.Size = New System.Drawing.Size(301, 437)
@@ -295,6 +299,7 @@ Partial Class ManagementClass
         '
         'btn_masuk
         '
+        Me.btn_masuk.Enabled = False
         Me.btn_masuk.Location = New System.Drawing.Point(366, 372)
         Me.btn_masuk.Name = "btn_masuk"
         Me.btn_masuk.Size = New System.Drawing.Size(132, 52)
@@ -304,12 +309,30 @@ Partial Class ManagementClass
         '
         'btn_keluar
         '
+        Me.btn_keluar.Enabled = False
         Me.btn_keluar.Location = New System.Drawing.Point(366, 451)
         Me.btn_keluar.Name = "btn_keluar"
         Me.btn_keluar.Size = New System.Drawing.Size(132, 52)
         Me.btn_keluar.TabIndex = 13
         Me.btn_keluar.Text = "<<< Keluarkan"
         Me.btn_keluar.UseVisualStyleBackColor = True
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(26, 22)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(46, 13)
+        Me.Label8.TabIndex = 7
+        Me.Label8.Text = "Jadwal :"
+        '
+        'txt_jadwal
+        '
+        Me.txt_jadwal.FormattingEnabled = True
+        Me.txt_jadwal.Location = New System.Drawing.Point(78, 19)
+        Me.txt_jadwal.Name = "txt_jadwal"
+        Me.txt_jadwal.Size = New System.Drawing.Size(238, 21)
+        Me.txt_jadwal.TabIndex = 8
         '
         'ManagementClass
         '
@@ -329,6 +352,7 @@ Partial Class ManagementClass
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
         CType(Me.data_grid_class, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
@@ -364,4 +388,6 @@ Partial Class ManagementClass
     Friend WithEvents GroupBox4 As GroupBox
     Friend WithEvents btn_masuk As Button
     Friend WithEvents btn_keluar As Button
+    Friend WithEvents txt_jadwal As ComboBox
+    Friend WithEvents Label8 As Label
 End Class
