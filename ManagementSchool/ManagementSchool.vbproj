@@ -114,6 +114,18 @@
       <DependentUpon>db_sekolahDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="FunctionClass.vb" />
+    <Compile Include="Guru\EditForm.Designer.vb">
+      <DependentUpon>EditForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Guru\EditForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guru\JadwalMengajar.Designer.vb">
+      <DependentUpon>JadwalMengajar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Guru\JadwalMengajar.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Guru\NavigationGuru.Designer.vb">
       <DependentUpon>NavigationGuru.vb</DependentUpon>
     </Compile>
@@ -147,6 +159,18 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Siswa\BayarSPP.Designer.vb">
+      <DependentUpon>BayarSPP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Siswa\BayarSPP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Siswa\JadwalSiswaForm.Designer.vb">
+      <DependentUpon>JadwalSiswaForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Siswa\JadwalSiswaForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Siswa\NavigationSiswa.Designer.vb">
       <DependentUpon>NavigationSiswa.vb</DependentUpon>
     </Compile>
@@ -173,6 +197,12 @@
     <EmbeddedResource Include="Admin\NavigationAdmin.resx">
       <DependentUpon>NavigationAdmin.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Guru\JadwalMengajar.resx">
+      <DependentUpon>JadwalMengajar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guru\NavigationGuru.resx">
+      <DependentUpon>NavigationGuru.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.vb</DependentUpon>
     </EmbeddedResource>
@@ -184,6 +214,15 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Siswa\BayarSPP.resx">
+      <DependentUpon>BayarSPP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Siswa\JadwalSiswaForm.resx">
+      <DependentUpon>JadwalSiswaForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Siswa\NavigationSiswa.resx">
+      <DependentUpon>NavigationSiswa.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
