@@ -24,23 +24,23 @@ Partial Class NavigationSiswa
     Private Sub InitializeComponent()
         Me.btn_logout = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.lbl_no_telp = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.lbl_nama = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.lbl_nip = New System.Windows.Forms.Label()
-        Me.lbl_ = New System.Windows.Forms.Label()
-        Me.btn_edit = New System.Windows.Forms.Button()
-        Me.btn_jadwal = New System.Windows.Forms.Button()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.lbl_alamat = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.lbl_jenis = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.lbl_tanggal_lahir = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.lbl_no_telp = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.lbl_nama = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.lbl_nip = New System.Windows.Forms.Label()
+        Me.lbl_ = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.btn_edit = New System.Windows.Forms.Button()
+        Me.btn_jadwal = New System.Windows.Forms.Button()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -79,6 +79,62 @@ Partial Class NavigationSiswa
         Me.GroupBox1.TabIndex = 23
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Data Siswa"
+        '
+        'lbl_alamat
+        '
+        Me.lbl_alamat.Font = New System.Drawing.Font("Maiandra GD", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_alamat.Location = New System.Drawing.Point(267, 178)
+        Me.lbl_alamat.Name = "lbl_alamat"
+        Me.lbl_alamat.Size = New System.Drawing.Size(178, 63)
+        Me.lbl_alamat.TabIndex = 31
+        Me.lbl_alamat.Text = "Label8"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(175, 178)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(39, 13)
+        Me.Label11.TabIndex = 30
+        Me.Label11.Text = "Alamat"
+        '
+        'lbl_jenis
+        '
+        Me.lbl_jenis.AutoSize = True
+        Me.lbl_jenis.Font = New System.Drawing.Font("Maiandra GD", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_jenis.Location = New System.Drawing.Point(267, 154)
+        Me.lbl_jenis.Name = "lbl_jenis"
+        Me.lbl_jenis.Size = New System.Drawing.Size(48, 15)
+        Me.lbl_jenis.TabIndex = 29
+        Me.lbl_jenis.Text = "Label8"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(175, 154)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(71, 13)
+        Me.Label8.TabIndex = 28
+        Me.Label8.Text = "Jenis Kelamin"
+        '
+        'lbl_tanggal_lahir
+        '
+        Me.lbl_tanggal_lahir.AutoSize = True
+        Me.lbl_tanggal_lahir.Font = New System.Drawing.Font("Maiandra GD", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_tanggal_lahir.Location = New System.Drawing.Point(267, 130)
+        Me.lbl_tanggal_lahir.Name = "lbl_tanggal_lahir"
+        Me.lbl_tanggal_lahir.Size = New System.Drawing.Size(48, 15)
+        Me.lbl_tanggal_lahir.TabIndex = 27
+        Me.lbl_tanggal_lahir.Text = "Label8"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(175, 130)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(72, 13)
+        Me.Label6.TabIndex = 26
+        Me.Label6.Text = "Tanggal Lahir"
         '
         'lbl_no_telp
         '
@@ -137,6 +193,15 @@ Partial Class NavigationSiswa
         Me.lbl_.TabIndex = 12
         Me.lbl_.Text = "NIS"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Location = New System.Drawing.Point(17, 38)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(136, 170)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 11
+        Me.PictureBox1.TabStop = False
+        '
         'btn_edit
         '
         Me.btn_edit.Location = New System.Drawing.Point(341, 244)
@@ -170,62 +235,6 @@ Partial Class NavigationSiswa
         Me.Label2.Text = "WELCOME STUDENT"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'lbl_alamat
-        '
-        Me.lbl_alamat.Font = New System.Drawing.Font("Maiandra GD", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_alamat.Location = New System.Drawing.Point(267, 178)
-        Me.lbl_alamat.Name = "lbl_alamat"
-        Me.lbl_alamat.Size = New System.Drawing.Size(178, 63)
-        Me.lbl_alamat.TabIndex = 31
-        Me.lbl_alamat.Text = "Label8"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(175, 178)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(39, 13)
-        Me.Label11.TabIndex = 30
-        Me.Label11.Text = "Alamat"
-        '
-        'lbl_jenis
-        '
-        Me.lbl_jenis.AutoSize = True
-        Me.lbl_jenis.Font = New System.Drawing.Font("Maiandra GD", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_jenis.Location = New System.Drawing.Point(267, 154)
-        Me.lbl_jenis.Name = "lbl_jenis"
-        Me.lbl_jenis.Size = New System.Drawing.Size(48, 15)
-        Me.lbl_jenis.TabIndex = 29
-        Me.lbl_jenis.Text = "Label8"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(175, 154)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(71, 13)
-        Me.Label8.TabIndex = 28
-        Me.Label8.Text = "Jenis Kelamin"
-        '
-        'lbl_tanggal_lahir
-        '
-        Me.lbl_tanggal_lahir.AutoSize = True
-        Me.lbl_tanggal_lahir.Font = New System.Drawing.Font("Maiandra GD", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_tanggal_lahir.Location = New System.Drawing.Point(267, 130)
-        Me.lbl_tanggal_lahir.Name = "lbl_tanggal_lahir"
-        Me.lbl_tanggal_lahir.Size = New System.Drawing.Size(48, 15)
-        Me.lbl_tanggal_lahir.TabIndex = 27
-        Me.lbl_tanggal_lahir.Text = "Label8"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(175, 130)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(72, 13)
-        Me.Label6.TabIndex = 26
-        Me.Label6.Text = "Tanggal Lahir"
-        '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Teal
@@ -237,15 +246,6 @@ Partial Class NavigationSiswa
         Me.Button1.TabIndex = 25
         Me.Button1.Text = "Bayar SPP"
         Me.Button1.UseVisualStyleBackColor = False
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Location = New System.Drawing.Point(17, 38)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(136, 170)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 11
-        Me.PictureBox1.TabStop = False
         '
         'NavigationSiswa
         '
