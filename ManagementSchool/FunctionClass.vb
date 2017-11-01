@@ -1,6 +1,6 @@
 ﻿Module FunctionClass
     Dim rd As SqlClient.SqlDataReader
-    Dim server As String = "1.1.1.202"
+    Dim server As String = "localhost"
 
 
     Public Function cekEmptyTextbox(ByVal ParamArray obj() As Object) As Boolean

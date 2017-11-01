@@ -72,6 +72,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\ManagemenSPP.Designer.vb">
+      <DependentUpon>ManagemenSPP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManagemenSPP.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Admin\ManagementClass.Designer.vb">
       <DependentUpon>ManagementClass.vb</DependentUpon>
     </Compile>
@@ -179,6 +185,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Admin\ManagemenSPP.resx">
+      <DependentUpon>ManagemenSPP.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Admin\ManagementClass.resx">
       <DependentUpon>ManagementClass.vb</DependentUpon>
     </EmbeddedResource>

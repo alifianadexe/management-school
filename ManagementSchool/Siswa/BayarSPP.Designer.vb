@@ -54,6 +54,8 @@ Partial Class BayarSPP
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.lbl_tahun = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -163,9 +165,9 @@ Partial Class BayarSPP
         Me.lbl_november.Font = New System.Drawing.Font("Maiandra GD", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_november.Location = New System.Drawing.Point(301, 144)
         Me.lbl_november.Name = "lbl_november"
-        Me.lbl_november.Size = New System.Drawing.Size(36, 14)
+        Me.lbl_november.Size = New System.Drawing.Size(76, 14)
         Me.lbl_november.TabIndex = 48
-        Me.lbl_november.Text = "Mei :"
+        Me.lbl_november.Text = "Belum Lunas"
         '
         'Label26
         '
@@ -180,11 +182,11 @@ Partial Class BayarSPP
         '
         Me.lbl_juni.AutoSize = True
         Me.lbl_juni.Font = New System.Drawing.Font("Maiandra GD", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_juni.Location = New System.Drawing.Point(84, 170)
+        Me.lbl_juni.Location = New System.Drawing.Point(81, 170)
         Me.lbl_juni.Name = "lbl_juni"
-        Me.lbl_juni.Size = New System.Drawing.Size(59, 14)
+        Me.lbl_juni.Size = New System.Drawing.Size(76, 14)
         Me.lbl_juni.TabIndex = 46
-        Me.lbl_juni.Text = "Januari : "
+        Me.lbl_juni.Text = "Belum Lunas"
         '
         'Label24
         '
@@ -201,9 +203,9 @@ Partial Class BayarSPP
         Me.lbl_desember.Font = New System.Drawing.Font("Maiandra GD", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_desember.Location = New System.Drawing.Point(301, 170)
         Me.lbl_desember.Name = "lbl_desember"
-        Me.lbl_desember.Size = New System.Drawing.Size(59, 14)
+        Me.lbl_desember.Size = New System.Drawing.Size(76, 14)
         Me.lbl_desember.TabIndex = 40
-        Me.lbl_desember.Text = "Januari : "
+        Me.lbl_desember.Text = "Belum Lunas"
         '
         'lbl_oktobe
         '
@@ -211,9 +213,9 @@ Partial Class BayarSPP
         Me.lbl_oktobe.Font = New System.Drawing.Font("Maiandra GD", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_oktobe.Location = New System.Drawing.Point(301, 116)
         Me.lbl_oktobe.Name = "lbl_oktobe"
-        Me.lbl_oktobe.Size = New System.Drawing.Size(36, 14)
+        Me.lbl_oktobe.Size = New System.Drawing.Size(76, 14)
         Me.lbl_oktobe.TabIndex = 44
-        Me.lbl_oktobe.Text = "Mei :"
+        Me.lbl_oktobe.Text = "Belum Lunas"
         '
         'lbl_juli
         '
@@ -221,9 +223,9 @@ Partial Class BayarSPP
         Me.lbl_juli.Font = New System.Drawing.Font("Maiandra GD", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_juli.Location = New System.Drawing.Point(301, 31)
         Me.lbl_juli.Name = "lbl_juli"
-        Me.lbl_juli.Size = New System.Drawing.Size(62, 14)
+        Me.lbl_juli.Size = New System.Drawing.Size(80, 14)
         Me.lbl_juli.TabIndex = 41
-        Me.lbl_juli.Text = "Februari :"
+        Me.lbl_juli.Text = "Belum  Lunas"
         '
         'lbl_september
         '
@@ -231,9 +233,9 @@ Partial Class BayarSPP
         Me.lbl_september.Font = New System.Drawing.Font("Maiandra GD", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_september.Location = New System.Drawing.Point(301, 87)
         Me.lbl_september.Name = "lbl_september"
-        Me.lbl_september.Size = New System.Drawing.Size(47, 14)
+        Me.lbl_september.Size = New System.Drawing.Size(76, 14)
         Me.lbl_september.TabIndex = 43
-        Me.lbl_september.Text = "April : "
+        Me.lbl_september.Text = "Belum Lunas"
         '
         'lbl_agustus
         '
@@ -241,9 +243,9 @@ Partial Class BayarSPP
         Me.lbl_agustus.Font = New System.Drawing.Font("Maiandra GD", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_agustus.Location = New System.Drawing.Point(301, 59)
         Me.lbl_agustus.Name = "lbl_agustus"
-        Me.lbl_agustus.Size = New System.Drawing.Size(48, 14)
+        Me.lbl_agustus.Size = New System.Drawing.Size(76, 14)
         Me.lbl_agustus.TabIndex = 42
-        Me.lbl_agustus.Text = "Maret :"
+        Me.lbl_agustus.Text = "Belum Lunas"
         '
         'Label13
         '
@@ -296,9 +298,9 @@ Partial Class BayarSPP
         Me.lbl_januari.Font = New System.Drawing.Font("Maiandra GD", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_januari.Location = New System.Drawing.Point(81, 30)
         Me.lbl_januari.Name = "lbl_januari"
-        Me.lbl_januari.Size = New System.Drawing.Size(59, 14)
+        Me.lbl_januari.Size = New System.Drawing.Size(76, 14)
         Me.lbl_januari.TabIndex = 30
-        Me.lbl_januari.Text = "Januari : "
+        Me.lbl_januari.Text = "Belum Lunas"
         '
         'lbl_mei
         '
@@ -306,9 +308,9 @@ Partial Class BayarSPP
         Me.lbl_mei.Font = New System.Drawing.Font("Maiandra GD", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_mei.Location = New System.Drawing.Point(81, 142)
         Me.lbl_mei.Name = "lbl_mei"
-        Me.lbl_mei.Size = New System.Drawing.Size(36, 14)
+        Me.lbl_mei.Size = New System.Drawing.Size(76, 14)
         Me.lbl_mei.TabIndex = 34
-        Me.lbl_mei.Text = "Mei :"
+        Me.lbl_mei.Text = "Belum Lunas"
         '
         'lbl_februari
         '
@@ -316,9 +318,9 @@ Partial Class BayarSPP
         Me.lbl_februari.Font = New System.Drawing.Font("Maiandra GD", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_februari.Location = New System.Drawing.Point(81, 57)
         Me.lbl_februari.Name = "lbl_februari"
-        Me.lbl_februari.Size = New System.Drawing.Size(62, 14)
+        Me.lbl_februari.Size = New System.Drawing.Size(76, 14)
         Me.lbl_februari.TabIndex = 31
-        Me.lbl_februari.Text = "Februari :"
+        Me.lbl_februari.Text = "Belum Lunas"
         '
         'lbl_april
         '
@@ -326,9 +328,9 @@ Partial Class BayarSPP
         Me.lbl_april.Font = New System.Drawing.Font("Maiandra GD", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_april.Location = New System.Drawing.Point(81, 113)
         Me.lbl_april.Name = "lbl_april"
-        Me.lbl_april.Size = New System.Drawing.Size(47, 14)
+        Me.lbl_april.Size = New System.Drawing.Size(76, 14)
         Me.lbl_april.TabIndex = 33
-        Me.lbl_april.Text = "April : "
+        Me.lbl_april.Text = "Belum Lunas"
         '
         'lbl_maret
         '
@@ -336,12 +338,13 @@ Partial Class BayarSPP
         Me.lbl_maret.Font = New System.Drawing.Font("Maiandra GD", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_maret.Location = New System.Drawing.Point(81, 85)
         Me.lbl_maret.Name = "lbl_maret"
-        Me.lbl_maret.Size = New System.Drawing.Size(48, 14)
+        Me.lbl_maret.Size = New System.Drawing.Size(76, 14)
         Me.lbl_maret.TabIndex = 32
-        Me.lbl_maret.Text = "Maret :"
+        Me.lbl_maret.Text = "Belum Lunas"
         '
         'cmb_bulan
         '
+        Me.cmb_bulan.DisplayMember = "Januari"
         Me.cmb_bulan.FormattingEnabled = True
         Me.cmb_bulan.Items.AddRange(New Object() {"Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"})
         Me.cmb_bulan.Location = New System.Drawing.Point(46, 24)
@@ -388,18 +391,38 @@ Partial Class BayarSPP
         Me.lbl_tahun.TabIndex = 34
         Me.lbl_tahun.Text = "Tahun Ajaran :"
         '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(265, 99)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(67, 13)
+        Me.Label8.TabIndex = 49
+        Me.Label8.Text = "Besar SPP : "
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(330, 99)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(81, 13)
+        Me.Label9.TabIndex = 50
+        Me.Label9.Text = "Rp. 255,000.00"
+        '
         'BayarSPP
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(428, 460)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.lbl_tahun)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label2)
         Me.Name = "BayarSPP"
-        Me.Text = "Ss"
+        Me.Text = "Bayar SPP"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
@@ -441,4 +464,6 @@ Partial Class BayarSPP
     Friend WithEvents Button2 As Button
     Friend WithEvents lbl_tahun As Label
     Friend WithEvents lbl_november As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label9 As Label
 End Class

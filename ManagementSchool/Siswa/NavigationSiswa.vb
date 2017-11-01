@@ -44,7 +44,23 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        BayarSPP.Tag = Me.Tag
-        BayarSPP.Show()
+
+        Dim sql As String = "SELECT tbl_spp.id_spp as id_spp FROM tbl_siswa INNER JOIN tbl_spp ON tbl_spp.nis = tbl_siswa.nis WHERE tbl_siswa.nis = '" + Me.Tag + "'"
+        Dim cmnd As New SqlClient.SqlCommand(sql, conn)
+        rd = cmnd.ExecuteReader
+        rd.Read()
+        If rd.HasRows Then
+            Dim byr As New BayarSPP
+
+            byr.id_siswa = Me.Tag
+            byr.id_spp = rd.Item("id_spp")
+
+            byr.Show()
+        End If
+        rd.Close()
+    End Sub
+
+    Private Sub GroupBox1_Enter(sender As Object, e As EventArgs) Handles GroupBox1.Enter
+
     End Sub
 End Class

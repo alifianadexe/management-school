@@ -75,7 +75,7 @@ Partial Class NavigationSiswa
         Me.GroupBox1.Controls.Add(Me.btn_edit)
         Me.GroupBox1.Location = New System.Drawing.Point(17, 72)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(451, 285)
+        Me.GroupBox1.Size = New System.Drawing.Size(451, 316)
         Me.GroupBox1.TabIndex = 23
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Data Siswa"
@@ -204,7 +204,7 @@ Partial Class NavigationSiswa
         '
         'btn_edit
         '
-        Me.btn_edit.Location = New System.Drawing.Point(341, 244)
+        Me.btn_edit.Location = New System.Drawing.Point(341, 280)
         Me.btn_edit.Name = "btn_edit"
         Me.btn_edit.Size = New System.Drawing.Size(104, 30)
         Me.btn_edit.TabIndex = 10
@@ -216,7 +216,7 @@ Partial Class NavigationSiswa
         Me.btn_jadwal.BackColor = System.Drawing.Color.Teal
         Me.btn_jadwal.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_jadwal.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.btn_jadwal.Location = New System.Drawing.Point(34, 363)
+        Me.btn_jadwal.Location = New System.Drawing.Point(38, 394)
         Me.btn_jadwal.Name = "btn_jadwal"
         Me.btn_jadwal.Size = New System.Drawing.Size(200, 50)
         Me.btn_jadwal.TabIndex = 22
@@ -240,7 +240,7 @@ Partial Class NavigationSiswa
         Me.Button1.BackColor = System.Drawing.Color.Teal
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button1.Location = New System.Drawing.Point(240, 363)
+        Me.Button1.Location = New System.Drawing.Point(244, 394)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(200, 50)
         Me.Button1.TabIndex = 25

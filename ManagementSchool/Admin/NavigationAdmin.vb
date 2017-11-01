@@ -29,4 +29,8 @@
     Private Sub btn_jadwal_Click(sender As Object, e As EventArgs) Handles btn_jadwal.Click
         ManagementJadwal.Show()
     End Sub
+
+    Private Sub btn_spp_Click(sender As Object, e As EventArgs) Handles btn_spp.Click
+        ManagemenSPP.Show()
+    End Sub
 End Class
