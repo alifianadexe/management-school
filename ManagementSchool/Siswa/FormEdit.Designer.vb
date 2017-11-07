@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class EditForm
+Partial Class FormEdit
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -24,9 +24,8 @@ Partial Class EditForm
     Private Sub InitializeComponent()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.btn_browse = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.txt_studi = New System.Windows.Forms.ComboBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.txt_no_hp = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -39,20 +38,20 @@ Partial Class EditForm
         Me.txt_nama = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txt_nis = New System.Windows.Forms.TextBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.GroupBox2.SuspendLayout()
-        Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.btn_browse)
         Me.GroupBox2.Controls.Add(Me.PictureBox1)
-        Me.GroupBox2.Location = New System.Drawing.Point(331, 26)
+        Me.GroupBox2.Location = New System.Drawing.Point(334, 12)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(206, 233)
-        Me.GroupBox2.TabIndex = 12
+        Me.GroupBox2.TabIndex = 5
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Foto Profile"
         '
@@ -66,10 +65,18 @@ Partial Class EditForm
         Me.btn_browse.Text = "Browse"
         Me.btn_browse.UseVisualStyleBackColor = True
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.ManagementSchool.My.Resources.Resources.anonymous_user_profile
+        Me.PictureBox1.Location = New System.Drawing.Point(33, 22)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(143, 151)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
+        '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.Label7)
-        Me.GroupBox1.Controls.Add(Me.txt_studi)
         Me.GroupBox1.Controls.Add(Me.Label6)
         Me.GroupBox1.Controls.Add(Me.txt_no_hp)
         Me.GroupBox1.Controls.Add(Me.Label5)
@@ -82,35 +89,17 @@ Partial Class EditForm
         Me.GroupBox1.Controls.Add(Me.txt_nama)
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.txt_nis)
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 26)
+        Me.GroupBox1.Location = New System.Drawing.Point(15, 12)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(313, 233)
-        Me.GroupBox1.TabIndex = 11
+        Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Data Diri"
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(10, 155)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(67, 13)
-        Me.Label7.TabIndex = 14
-        Me.Label7.Text = "Bidang Studi"
-        '
-        'txt_studi
-        '
-        Me.txt_studi.Enabled = False
-        Me.txt_studi.FormattingEnabled = True
-        Me.txt_studi.Location = New System.Drawing.Point(89, 152)
-        Me.txt_studi.Name = "txt_studi"
-        Me.txt_studi.Size = New System.Drawing.Size(181, 21)
-        Me.txt_studi.TabIndex = 4
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(10, 208)
+        Me.Label6.Location = New System.Drawing.Point(10, 182)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(39, 13)
         Me.Label6.TabIndex = 12
@@ -119,15 +108,15 @@ Partial Class EditForm
         'txt_no_hp
         '
         Me.txt_no_hp.Enabled = False
-        Me.txt_no_hp.Location = New System.Drawing.Point(89, 205)
+        Me.txt_no_hp.Location = New System.Drawing.Point(89, 179)
         Me.txt_no_hp.Name = "txt_no_hp"
         Me.txt_no_hp.Size = New System.Drawing.Size(201, 20)
-        Me.txt_no_hp.TabIndex = 6
+        Me.txt_no_hp.TabIndex = 5
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(11, 182)
+        Me.Label5.Location = New System.Drawing.Point(11, 156)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(72, 13)
         Me.Label5.TabIndex = 10
@@ -136,10 +125,10 @@ Partial Class EditForm
         'txt_date_lahir
         '
         Me.txt_date_lahir.Enabled = False
-        Me.txt_date_lahir.Location = New System.Drawing.Point(89, 179)
+        Me.txt_date_lahir.Location = New System.Drawing.Point(89, 153)
         Me.txt_date_lahir.Name = "txt_date_lahir"
         Me.txt_date_lahir.Size = New System.Drawing.Size(200, 20)
-        Me.txt_date_lahir.TabIndex = 5
+        Me.txt_date_lahir.TabIndex = 4
         '
         'Label4
         '
@@ -183,9 +172,9 @@ Partial Class EditForm
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(10, 48)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(61, 13)
+        Me.Label2.Size = New System.Drawing.Size(66, 13)
         Me.Label2.TabIndex = 4
-        Me.Label2.Text = "Nama Guru"
+        Me.Label2.Text = "Nama Siswa"
         '
         'txt_nama
         '
@@ -202,7 +191,7 @@ Partial Class EditForm
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(25, 13)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "NIP"
+        Me.Label1.Text = "NIS"
         '
         'txt_nis
         '
@@ -212,29 +201,29 @@ Partial Class EditForm
         Me.txt_nis.Size = New System.Drawing.Size(100, 20)
         Me.txt_nis.TabIndex = 0
         '
-        'PictureBox1
+        'Button2
         '
-        Me.PictureBox1.Image = Global.ManagementSchool.My.Resources.Resources.anonymous_user_profile
-        Me.PictureBox1.Location = New System.Drawing.Point(33, 22)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(143, 151)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
+        Me.Button2.Location = New System.Drawing.Point(202, 251)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(126, 49)
+        Me.Button2.TabIndex = 7
+        Me.Button2.Text = "Edit"
+        Me.Button2.UseVisualStyleBackColor = True
         '
-        'EditForm
+        'FormEdit
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(559, 317)
+        Me.ClientSize = New System.Drawing.Size(556, 322)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Name = "EditForm"
-        Me.Text = "EditForm"
+        Me.Name = "FormEdit"
+        Me.Text = "FormEdit"
         Me.GroupBox2.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -243,8 +232,6 @@ Partial Class EditForm
     Friend WithEvents btn_browse As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents Label7 As Label
-    Friend WithEvents txt_studi As ComboBox
     Friend WithEvents Label6 As Label
     Friend WithEvents txt_no_hp As TextBox
     Friend WithEvents Label5 As Label
@@ -257,4 +244,5 @@ Partial Class EditForm
     Friend WithEvents txt_nama As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents txt_nis As TextBox
+    Friend WithEvents Button2 As Button
 End Class

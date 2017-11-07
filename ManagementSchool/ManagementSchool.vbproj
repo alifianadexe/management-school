@@ -171,6 +171,12 @@
     <Compile Include="Siswa\BayarSPP.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Siswa\FormEdit.Designer.vb">
+      <DependentUpon>FormEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Siswa\FormEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Siswa\JadwalSiswaForm.Designer.vb">
       <DependentUpon>JadwalSiswaForm.vb</DependentUpon>
     </Compile>
@@ -206,6 +212,9 @@
     <EmbeddedResource Include="Admin\NavigationAdmin.resx">
       <DependentUpon>NavigationAdmin.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Guru\EditForm.resx">
+      <DependentUpon>EditForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Guru\JadwalMengajar.resx">
       <DependentUpon>JadwalMengajar.vb</DependentUpon>
     </EmbeddedResource>
@@ -226,6 +235,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Siswa\BayarSPP.resx">
       <DependentUpon>BayarSPP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Siswa\FormEdit.resx">
+      <DependentUpon>FormEdit.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Siswa\JadwalSiswaForm.resx">
       <DependentUpon>JadwalSiswaForm.vb</DependentUpon>

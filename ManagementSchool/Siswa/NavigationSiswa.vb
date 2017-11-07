@@ -16,6 +16,7 @@
         rd.Read()
 
         If rd.HasRows Then
+
             Me.lbl_alamat.Text = rd.Item("alamat")
             Me.lbl_jenis.Text = rd.Item("jenis_kelamin")
             Me.lbl_nama.Text = rd.Item("nama_siswa")
@@ -60,7 +61,10 @@
         rd.Close()
     End Sub
 
-    Private Sub GroupBox1_Enter(sender As Object, e As EventArgs) Handles GroupBox1.Enter
+    Private Sub btn_edit_Click(sender As Object, e As EventArgs) Handles btn_edit.Click
+        Dim fe As New FormEdit
+        fe.Tag = Me.Tag
+        fe.Show()
 
     End Sub
 End Class
