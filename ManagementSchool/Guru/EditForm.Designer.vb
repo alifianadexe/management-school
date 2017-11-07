@@ -40,6 +40,8 @@ Partial Class EditForm
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txt_nis = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -222,11 +224,25 @@ Partial Class EditForm
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(227, 265)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(122, 40)
+        Me.Button2.TabIndex = 13
+        Me.Button2.Text = "Edit"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'OpenFileDialog1
+        '
+        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
+        '
         'EditForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(559, 317)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "EditForm"
@@ -257,4 +273,6 @@ Partial Class EditForm
     Friend WithEvents txt_nama As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents txt_nis As TextBox
+    Friend WithEvents Button2 As Button
+    Friend WithEvents OpenFileDialog1 As OpenFileDialog
 End Class

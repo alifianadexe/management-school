@@ -40,6 +40,9 @@
     End Sub
 
     Private Sub btn_edit_Click(sender As Object, e As EventArgs) Handles btn_edit.Click
+        Dim fe As New EditForm
+        fe.Tag = Me.Tag
+        fe.Show()
 
     End Sub
 
